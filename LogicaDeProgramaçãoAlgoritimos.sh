@@ -1,4 +1,5 @@
 LogicaDeBanho passo a passo de como tomar banho
+
 if sentado or deitado levanta
 else ir até o banheiro 
 banheiro é ao lado da cozinha
