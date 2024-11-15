@@ -8,4 +8,4 @@ inicio
   escreva("Me livrei da maudição!")
 
 fimalgoritmo
-sen
+
