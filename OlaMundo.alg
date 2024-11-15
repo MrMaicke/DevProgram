@@ -1,8 +1,9 @@
-algoritmo "Olá mundo"
+algoritmo "primeiro"
 
 var
- 
+
 inicio
-escreva ("Olá, Mundo!")
- 
+
+  escreva ("Olá, Mundo!")
+
 fimalgoritmo
