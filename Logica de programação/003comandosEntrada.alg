@@ -1,17 +1,21 @@
-algoritmo "Nome do Programa"
-// Disciplina  :  [Linguagem e Lógica de Programação]
-// Professor   : [Nome do Professor]
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
+algoritmo "MeuNome"
+
 var
 
-teste: caractere
+    nome: caractere
+    leianome: caractere
 
 inicio
 
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
+    nome <- "Marcelo."
+    escreval ("Apresentação:")
+    escreva ("Muito prazer me chamo " + nome)
+    escreval("Qual seu Nome?")
+// eu poderia fazer assim: escreval ("Muito prazer me chamo " + nome + "Qual seu Nome?")
+//porem quero que o comando escrava estaja apresentado nesse algoritimo
+//leia serve como um comando de entrada.
+    leia(leianome)
+    escreval("Muito prazer " + leianome + "!")
+
 
 fimalgoritmo
