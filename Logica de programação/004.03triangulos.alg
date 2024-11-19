@@ -1,12 +1,17 @@
-algoritmo "Nome do Programa"
+algoritmo "triangulos"
 var
-    a: inteiro
-    b: inteiro
-    c: inteiro
+    l1, l2, l3: real
+    eq, es: logico
 inicio
-    a <- 2
-    b <- 3
-    c <- 5
-    escreval(verdadeiro e falso)
+    escreval("digite o primeiro lado:")
+    leia(l1)
+    escreval("digite o segundo lado:")
+    leia(l2)
+    escreval("digite o terceiro lado:")
+    leia(l3)
+    eq <- (l1 = l2) e (l2 = l3)
+    es<-(l1 <> l2) e (l2 <> l3) e (l1 <> l3)
+    escreval("O triangulo é equilaatero?", eq)
+    escreva("o triangulo é escaleno?", es)
 
 fimalgoritmo
