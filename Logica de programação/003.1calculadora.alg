@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "soma"
 var
     soma: inteiro
     n1: inteiro

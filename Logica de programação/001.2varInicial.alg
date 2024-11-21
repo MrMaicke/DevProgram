@@ -1,4 +1,4 @@
-algoritmo "primeiro"
+algoritmo "primeiro com msg"
 var
     msg: caractere
 inicio

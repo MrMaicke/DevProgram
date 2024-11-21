@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "relacionais"
 var
     a: inteiro
     b: inteiro

@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "logica"
 // comandos:
 // Disciplina : Linguagem portugol e Lógica de Programação
 // Professor : internet

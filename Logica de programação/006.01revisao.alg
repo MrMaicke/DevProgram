@@ -4,6 +4,7 @@ var
 
 nasc, ano, res: inteiro
 
+
 inicio
 
 escreval ("em que ano estamos? ")
@@ -13,5 +14,7 @@ leia(nasc)
 res <- (ano - nasc)
 escreval("então você tem provavelmente: ", res, " anos, acertei?")
 leia(res)
+//ainda não sei dar uma resposta bolleana.
+escreva("Agradeço a execução do teste!")
 
 fimalgoritmo

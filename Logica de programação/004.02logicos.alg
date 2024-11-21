@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "primeira logica"
 var
     a: inteiro
     b: inteiro

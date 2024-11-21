@@ -1,4 +1,4 @@
-algoritmo "MeuNome"
+algoritmo "Apresentação"
 var
     nome: caractere
     leianome: caractere

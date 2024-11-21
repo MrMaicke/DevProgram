@@ -1,4 +1,4 @@
-algoritmo "funções do Programa"
+algoritmo "funções aritmeticas"
 var
     a: inteiro
     b: real

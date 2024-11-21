@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "media"
 var
     media: real
     n1,n2: inteiro
