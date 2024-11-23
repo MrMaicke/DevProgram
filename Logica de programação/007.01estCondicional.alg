@@ -1,4 +1,4 @@
-algoritmo "i"
+algoritmo "idade com condicional"
 var
     nasc: inteiro
     ano: inteiro
