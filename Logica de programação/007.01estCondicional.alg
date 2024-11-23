@@ -13,7 +13,7 @@ inicio
 
     se (nasc >= 18) entao
         escreval("e você já é maior de idade!")
-    senao (nasc >= 18)
+    senao 
         escreval("ainda não é maior de idade...")
     fimse
 
