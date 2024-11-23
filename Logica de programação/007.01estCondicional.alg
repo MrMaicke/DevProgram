@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "i"
 var
     nasc: inteiro
     ano: inteiro
@@ -8,10 +8,10 @@ inicio
     leia(ano)
     escreval("em qua no você nascel? ")
     leia(nasc)
-    res <- (ano - nasc)   
+    res <- (ano - nasc)
     escreval("então você tem provavelmente: ", res, " anos, acertei?")
-    se (nasc >= 18) entao
-        escreval("e você já é maior de idade!").
+    se ( (nasc >= 18) ) entao
+        escreval("e você já é maior de idade!")
     fimse
 
 fimalgoritmo
