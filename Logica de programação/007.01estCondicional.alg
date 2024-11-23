@@ -11,7 +11,7 @@ inicio
     res <- (ano - nasc)   
     escreval("então você tem provavelmente: ", res, " anos, acertei?")
     se (nasc >= 18) entao
-        escreval("e você já é maior de idade!")
+        escreval("e você já é maior de idade!").
     fimse
 
 fimalgoritmo
