@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "carteira de motorista"
 
 var
     AA, AN, res: REAL
@@ -19,7 +19,7 @@ inicio
     senao
         escreval (" Inda Não Está apto a Dirigir.")
     fimse
-    escreva ("-----------------------------")
+    escreval ("-----------------------------")
 
 
 fimalgoritmo
