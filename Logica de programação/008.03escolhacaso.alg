@@ -16,7 +16,6 @@ inicio
     escreval("digite [4] para doar 1.50 real")
     escreval("digite [7] para receber 100 reais")
     escreva("R: ")
-
     leia(d)
 
         escolha d
@@ -37,7 +36,7 @@ inicio
         se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
             escreval ("sua doação foi de: ", val)
         senao
-            escreval ("voce recebeu 100 reais")
+            escreval ("voce recebeu ",val ," reais")
         fimse
 
     se (d = 1) entao
