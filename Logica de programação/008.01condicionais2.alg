@@ -13,15 +13,15 @@ inicio
     media <- (n1 + n2) / 2 
 
     escreval ("-----------------------------")
-    escreva("Sua media foi de: ", media)
+    escreval("Sua media foi de: ", media)
     se (media >= 7) entao
         escreval ("parabenbens você foi APROVADO.")
 
     senao
         se (media >= 5) e (media < 7) entao
-            escreval ("Você ficou de recuperação")
+            escreval ("Você ficou de RECUPERAÇÃO.")
         senao
-            escreval ("infelizmente você foi REPROVADO")
+            escreval ("infelizmente você foi REPROVADO.")
         fimse
 
     fimse  
