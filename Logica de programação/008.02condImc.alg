@@ -28,13 +28,9 @@ senao
                     escreval ("obesidade")
                 senao
                     se (imc >= 35) e (imc < 40) entao
-                        escreval ("obesidade severa")
+                        escreval ("obesidade severa")      
                     senao
-                        se (imc > 40) entao
-                            escreval ("obesidade morbida")
-                        senao
-                            escreval ("false")
-                        fimse
+                            escreval ("obesidade morbida") 
                     fimse
                 fimse
             fimse
