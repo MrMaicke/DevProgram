@@ -2,10 +2,28 @@ algoritmo "notas"
 
 var
 
-n1, n2, n3: real
+n1, n2, media: real
 
 inicio
 
-escreva ("O valor da variável TESTE é: ")
+    escreval ("-----------------------------")
+    escreval ("     Escola Ganço manço")
+    escreval ("-----------------------------")
+    escreva("Primeira nota: ")
+    leia(n1)
+    escreva("Segunda nota: ")
+    leia(n2)
+    media <- (n1 + n2) / 2 
+    escreval ("-----------------------------")
+
+    se (media >= 6) entao
+        escreval ("parabenbens sua nota é: ", media,": APROVADO.")
+        escreval ("-----------------------------")
+
+    senao
+        escreval ("infelizmente Sua media foi ", media, ": REPROVADO")
+        escreval ("-----------------------------")
+
+    fimse  
 
 fimalgoritmo
