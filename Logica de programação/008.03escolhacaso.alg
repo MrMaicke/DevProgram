@@ -40,11 +40,11 @@ inicio
         se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
             escreval ("sua doação foi de: ", val)
         senao
-                se(doa) entao
-                    escreval ("o valor que você doou é de: ", doa)
-                senao
-                    escreval ("voce recebeu ",val ," reais")
-                fimse
+            se(doa) entao
+                escreval ("o valor que você doou é de: ", doa)
+            senao
+                escreval ("voce recebeu ",val ," reais")
+            fimse
         fimse
 
     se (d = 1) entao
