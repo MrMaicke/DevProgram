@@ -15,16 +15,31 @@ escreval ("O seu IMC é de:",imc:5:2)
 se (imc < 17) entao
     escreval ("Muito Abaixo do peso ideal.")
 senao
-    se (imc >= 17) e (imc <= 18.5) entao
+    se (imc >= 17) e (imc < 18.5) entao
             escreval (" Abaixo do peso ideal.")
     senao
-        se (verdadeiro) entao
-            escreval ("true")
+        se (imc >= 18.5) e (imc < 25 ) entao
+            escreval ("você esta no seu peso idesal!")
         senao
-            escreval ("false")
+            se (imc >= 25) e (imc < 30) entao
+                escreval ("sobre peso")
+            senao
+                se (imc >= 30) e (imc < 35) entao
+                    escreval ("obesidade")
+                senao
+                    se (imc >= 35) e (imc < 40) entao
+                        escreval ("obesidade severa")
+                    senao
+                        se (imc > 40) entao
+                            escreval ("obesidade morbida")
+                        senao
+                            escreval ("false")
+                        fimse
+                    fimse
+                fimse
+            fimse
         fimse
     fimse
-    escreval (" Abaixo do peso ideal.")
 fimse
 
 fimalgoritmo
