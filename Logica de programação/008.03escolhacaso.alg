@@ -1,5 +1,4 @@
 algoritmo "Crianças sem nenhuma esperança!"
-
 var
 
 d, val : real
@@ -17,7 +16,9 @@ inicio
     escreval("digite [4] para doar 1.50 real")
     escreval("digite [7] para receber 100 reais")
     escreva("R: ")
+
     leia(d)
+
         escolha d
             caso 1
                 val <- 1
@@ -31,12 +32,14 @@ inicio
                 val <- 100
         fimescolha
 
-        se (d = 1,2,3,4) entao
+    escreval("-------------------------------")
+    
+        se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
             escreval ("sua doação foi de: ", val)
         senao
             escreval ("voce recebeu 100 reais")
         fimse
-    escreval("-------------------------------")
+
     se (d = 1) entao
         escreval ("voce doou 1 real")
     senao
@@ -54,8 +57,8 @@ inicio
             fimse
         fimse
     fimse
+
     escreval("Agradecemos a sua particpação.")
     escreval("-------------------------------")
-
 
 fimalgoritmo
