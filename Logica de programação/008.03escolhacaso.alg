@@ -59,7 +59,7 @@ inicio
                 se (d = 4) entao
                     escreval ("você doou 1.50")
                     se (d = 5) entao
-                        escreval("o valor que você doou é de: ", doa)//fcou faltando esse.
+                        escreval("o valor que você doou é de: ", doa)//ficou faltando esse.
                     senao
                         escreval ("voce recebeu 100 reais")
                     fimse
