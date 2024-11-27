@@ -5,7 +5,7 @@ var
     dep: inteiro
 
 inicio
-    escreva("qual o nome do funcio nario? ")
+    escreva("qual o nome do funcionario? ")
     leia (nome)
     escreva("qual o salario do funcionario? R$")
     leia (sal)
@@ -23,6 +23,6 @@ inicio
 
     fimescolha
 
-    escreval("olá ",nome ," seu novo salario é de ",nsal:5:2 )
+    escreval("O salario do ",nome ," sera de: R$",nsal:5:2 )
 
 fimalgoritmo
