@@ -12,11 +12,12 @@ escreva ("qual sua altura? ")
 leia(altura)
 imc <- peso / (altura ^ 2)
 escreval ("O seu IMC é de:",imc:5:2)
+
 se (imc < 17) entao
     escreval ("Muito Abaixo do peso ideal.")
 senao
     se (imc >= 17) e (imc < 18.5) entao
-            escreval (" Abaixo do peso ideal.")
+        escreval (" Abaixo do peso ideal.")
     senao
         se (imc >= 18.5) e (imc < 25 ) entao
             escreval ("você esta no seu peso idesal!")
@@ -30,7 +31,7 @@ senao
                     se (imc >= 35) e (imc < 40) entao
                         escreval ("obesidade severa")      
                     senao
-                            escreval ("obesidade morbida") 
+                        escreval ("obesidade morbida") 
                     fimse
                 fimse
             fimse
