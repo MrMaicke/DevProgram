@@ -1,6 +1,7 @@
 algoritmo "Dependentes"
 var
-    nome: inteiro
+    nome, dep: inteiro
+    sal: real
 
 inicio
     escreva("qual o nome do funcio nario? ")
