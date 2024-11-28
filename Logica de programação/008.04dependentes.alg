@@ -7,7 +7,7 @@ var
 inicio
     escreva("qual o nome do funcionario? ")
     leia (nome)
-    escreva("qual o salario do funcionario? R$")
+    escreva("qual o salario do ",nome ,"? R$")
     leia (sal)
     escreva("qual a quantidade de dependentes? ")
     leia (dep)
