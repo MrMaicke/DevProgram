@@ -1,7 +1,8 @@
 algoritmo "Crianças sem nenhuma esperança!"
 var
 
-d, val, doa : real
+d, doa : real
+val : caractere
 
 inicio
 
@@ -27,12 +28,12 @@ inicio
             caso 3
                 val <- ("R$2")
             caso 4
-                val <- ("1.50")
+                val <- ("R$1.50")
             caso 5
                 escreva("qual o valor da doação? R$")
                 leia (doa)
             caso 7
-                val <- 100
+                val <- ("R$100")
         fimescolha
 
     escreval("-------------------------------")
@@ -62,7 +63,7 @@ inicio
 // oooooooooooooooooooouuuuuuuuuuuuuuuuuuuuuuuuu
 
         se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
-        escreval ("sua doação foi de: ", val)
+        escreval ("sua doação foi de ", val)
         senao
             se(d = 5) entao
             escreval ("o valor que você doou é de: ", doa)
