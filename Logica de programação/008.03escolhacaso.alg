@@ -21,13 +21,13 @@ inicio
 
         escolha d
             caso 1
-                val <- 1
+                val <- ("R$1")
             caso 2
-                val <- 0.25
+                val <- ("0.25 cents")
             caso 3
-                val <- 2
+                val <- ("R$2")
             caso 4
-                val <- 1.50
+                val <- ("1.50")
             caso 5
                 escreva("qual o valor da doação? R$")
                 leia (doa)
@@ -37,36 +37,39 @@ inicio
 
     escreval("-------------------------------")
     
-        se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
-            escreval ("sua doação foi de: ", val)
-        senao
-            se(doa) entao
-                escreval ("o valor que você doou é de: ", doa)
-            senao
-                escreval ("voce recebeu ",val ," reais")
-            fimse
-        fimse
-
     se (d = 1) entao
-        escreval ("voce doou 1 real")
+    escreval ("voce doou 1 real")
     senao
         se (d = 2) entao
-            escreval ("voce doou 0.25 cents")
+        escreval ("voce doou 0.25 cents")
         senao
             se (d = 3) entao
-                escreval ("voce doou 2 reais")
+            escreval ("voce doou 2 reais")
             senao
                 se (d = 4) entao
-                    escreval ("você doou 1.50")
+                escreval ("você doou R$1.50")
+                senao
                     se (d = 5) entao
-                        escreval("o valor que você doou é de: ", doa)//ficou faltando esse.
+                    escreval("Você doou R$", doa)//ficou faltando esse.
                     senao
-                        escreval ("voce recebeu 100 reais")
+                    escreval ("voce recebeu 100 reais")
                     fimse
                 fimse
             fimse
         fimse
     fimse
+
+// oooooooooooooooooooouuuuuuuuuuuuuuuuuuuuuuuuu
+
+        se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
+        escreval ("sua doação foi de: ", val)
+        senao
+            se(d = 5) entao
+            escreval ("o valor que você doou é de: ", doa)
+            senao
+            escreval ("voce recebeu ",val ," reais")
+            fimse
+        fimse
 
     escreval("Agradecemos a sua particpação.")
     escreval("-------------------------------")
