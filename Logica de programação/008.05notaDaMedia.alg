@@ -3,6 +3,7 @@ algoritmo "Media&Nota"
 var
 
 n1, n2, media: real
+apv: caractere
 
 inicio
     escreval ("-----------------------------")
@@ -13,34 +14,63 @@ inicio
     escreva("Segunda nota: ")
     leia(n2)
     media <- (n1 + n2) / 2 
+
     escreval ("-----------------------------")
+    
+    se (media < 5) entao
+        apv <- ("F")
+
+    senao
+        se (media >= 5) e (media <= 5.9) entao
+        apv <- ("E")
+        senao
+            se(media >= 6) e (media <= 6.9) entao
+            apv <- ("D")
+            senao
+                se(media >= 7) e (media <= 7.9) entao
+                apv <- ("C")
+                senao
+                    se(media >= 8) e (media <= 8.9) entao
+                    apv <- ("B")
+                    senao
+                        se(media >= 9) e (media <= 10) entao
+                        apv <- ("A")
+                        senao
+                        apv <- ("A+")
+                        fimse
+                    fimse
+                fimse
+            fimse
+        fimse
+    fimse  
+
     se (media < 5) entao
         escreval ("Media:", media:1:2)
-        escreval("APROVEITAMENTO F")
+        escreval("APROVEITAMENTO: ", apv:1:2)
 
     senao
         se (media >= 5) e (media <= 5.9) entao
             escreval ("Media:", media:1:2)
-            escreval("APROVEITAMENTO E")
+            escreval("APROVEITAMENTO: ", apv:1:2)
 
         senao
             se(media >= 6) e (media <= 6.9) entao
             escreval ("Media:", media:1:2)
-            escreval("APROVEITAMENTO D")
+            escreval("APROVEITAMENTO: ", apv:1:2)
 
             senao
                 se(media >= 7) e (media <= 7.9) entao
                 escreval ("Media:", media:1:2)
-                escreval("APROVEITAMENTO C")
+                escreval("APROVEITAMENTO: ", apv:1:2)
 
                 senao
                     se(media >= 8) e (media <= 8.9) entao
                     escreval ("Media:", media:1:2)
-                    escreval("APROVEITAMENTO B")
+                    escreval("APROVEITAMENTO: ", apv:1:2)
 
                     senao
                     escreval ("Media:", media:1:2)
-                    escreval("APROVEITAMENTO A")
+                    escreval("APROVEITAMENTO: ", apv:1:2)
                     fimse
                 fimse
             fimse
