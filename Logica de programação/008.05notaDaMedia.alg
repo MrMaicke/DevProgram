@@ -1,4 +1,4 @@
-algoritmo "notas"
+algoritmo "Media&Nota"
 
 var
 
@@ -15,31 +15,31 @@ inicio
     media <- (n1 + n2) / 2 
     escreval ("-----------------------------")
     se (media < 5) entao
-        escreval ("media:", media:1:2)
+        escreval ("Media:", media:1:2)
         escreval("APROVEITAMENTO F")
 
     senao
         se (media >= 5) e (media <= 5.9) entao
-            escreval ("media:", media:1:2)
+            escreval ("Media:", media:1:2)
             escreval("APROVEITAMENTO E")
 
         senao
             se(media >= 6) e (media <= 6.9) entao
-            escreval ("media:", media:1:2)
+            escreval ("Media:", media:1:2)
             escreval("APROVEITAMENTO D")
 
             senao
                 se(media >= 7) e (media <= 7.9) entao
-                escreval ("media:", media:1:2)
+                escreval ("Media:", media:1:2)
                 escreval("APROVEITAMENTO C")
 
                 senao
                     se(media >= 8) e (media <= 8.9) entao
-                    escreval ("media:", media:1:2)
+                    escreval ("Media:", media:1:2)
                     escreval("APROVEITAMENTO B")
 
-                    senao(media >= 9) e (media <= 10) entao
-                    escreval ("media:", media:1:2)
+                    senao
+                    escreval ("Media:", media:1:2)
                     escreval("APROVEITAMENTO A")
                     fimse
                 fimse
