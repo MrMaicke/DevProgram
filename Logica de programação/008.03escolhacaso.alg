@@ -66,7 +66,7 @@ inicio
         escreval ("sua doação foi de ", val)
         senao
             se(d = 5) entao
-            escreval ("o valor que você doou é de: ", doa)
+            escreval ("o valor que você doou é de R$", doa)
             senao
             escreval ("voce recebeu ",val ," reais")
             fimse
