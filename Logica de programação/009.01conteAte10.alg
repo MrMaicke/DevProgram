@@ -6,9 +6,9 @@ var
 inicio
 
     contador <- 0
-    enquanto (contador <= 10) faca
+    enquanto (contador <= 100) faca
         escreval(contador)
-        contador <- contador + 1
+        contador <- contador + 10
 
     fimenquanto
 
