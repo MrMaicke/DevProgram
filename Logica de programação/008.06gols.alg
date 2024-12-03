@@ -19,7 +19,7 @@ res <- abs(g1 - g2)
 
 escreval("      Diferença: ", res)
 
-    se (g1 = g2) entao
+    se (res = 0) entao
         escreval("      STATUS: EMPATE")
     senao
         se (res < 5) entao
