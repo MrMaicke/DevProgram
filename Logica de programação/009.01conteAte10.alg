@@ -1,4 +1,4 @@
-algoritmo "conteAte10"
+algoritmo "conteAte10eate0"
 var
 
     contador : inteiro
@@ -9,7 +9,9 @@ inicio
     enquanto (contador <= 100) faca
         escreval(contador)
         contador <- contador + 10
+        contador <- contador - 1
 
     fimenquanto
+
 
 fimalgoritmo
