@@ -9,7 +9,7 @@ inicio
     enquanto (contador <= 100) faca
         escreval(contador)
         contador <- contador + 10
-        contador <- contador - 1
+        contador <- contador - 2
 
     fimenquanto
 
