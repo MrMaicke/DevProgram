@@ -1,4 +1,4 @@
-algoritmo "conteAte10eate0"
+algoritmo "conteAte0eate10"
 var
     contador: inteiro
 inicio
