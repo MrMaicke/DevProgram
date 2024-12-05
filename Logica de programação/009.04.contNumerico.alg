@@ -4,7 +4,7 @@ var
 inicio
     cont <- 1
     enquanto (cont <= 5) faca
-        escreva("Digite um valor? :")
+        escreva("Digite o ",cont,"* valor? :")
         leia(num)
         se (num > maior) entao
             maior <- num
