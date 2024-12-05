@@ -1,11 +1,13 @@
 algoritmo "contNUmerico"
 var
-    cont, num1: real
+    cont, soma, num: real
 inicio
     cont <- 1
     enquanto (cont <= 5) faca
         escreva("Digite um valor? :")
-        leia(num1)
+        leia(num)
+        soma <- soma + num
         cont <- cont + 1
-    fimenquanto
+    fimenquanto`
+escreva("a soma de todos os valore foi de: ",soma)
 fimalgoritmo
