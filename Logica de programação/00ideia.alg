@@ -1,14 +1,16 @@
-algoritmo "contNumerico"
+algoritmo "repetirAteSim"
 var
     res: caractere
 inicio
-    escreva("Quer namorar comigo? : ")
-    leia(res)
-    
-    enquanto (res = "sim") ou (res = "s") ou (res = "SIM") ou (res = "Sim") faca
-        escreva("Ainda esperando uma resposta diferente... Quer namorar comigo? : ")
+    enquanto verdadeiro faca
+        escreva("Quer namorar comigo? : ")
         leia(res)
+        
+        se (res = "sim") ou (res = "s") ou (res = "SIM") ou (res = "Sim") ou    (res = "claro") ou (res = "com certeza") ou (res = "simmm") ou (res = "siim") ou (res = "siiim") ou (res = "siiimmm") ou   (res = "siiim") ou (res = "só pode ser sim") ou (res = "só pode") ou    (res = "sii") ou (res = "yep") ou (res = "yeah") ou (res = "yes") entao
+            escreva("Oba! Agora estamos namorando! :)") 
+        senao
+            escreva("Quer namorar comigo? : ")
+            leia(res)
+        fimse
     fimenquanto
-    
-    escreva("Resposta diferente recebida. Fim do programa.")
 fimalgoritmo
