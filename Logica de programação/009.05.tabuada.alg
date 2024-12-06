@@ -1,4 +1,4 @@
-algoritmo "Tabuada teste"
+algoritmo "Tabuada"
 var
     cont, num, res: inteiro
 inicio
