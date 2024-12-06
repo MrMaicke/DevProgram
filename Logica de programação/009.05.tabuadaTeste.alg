@@ -7,7 +7,7 @@ inicio
     leia(num)
     enquanto (cont <= 10) faca
         res <- cont * num
-        escreval(cont ," * ",num ," : ", res)
+        escreval(num ," * ",cont ," : ", res)
         cont <- cont + 1
     fimenquanto
 fimalgoritmo
