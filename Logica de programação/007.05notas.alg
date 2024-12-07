@@ -1,9 +1,6 @@
 algoritmo "notas"
-
 var
-
-n1, n2, media: real
-
+    n1, n2, media: real
 inicio
     escreval ("-----------------------------")
     escreval ("     Escola Ganço manço")
@@ -14,6 +11,7 @@ inicio
     leia(n2)
     media <- (n1 + n2) / 2 
     escreval ("-----------------------------")
+
     se (media >= 6) entao
         escreval ("parabenbens sua nota é: ", media,": APROVADO.")
 

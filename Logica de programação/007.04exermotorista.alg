@@ -1,9 +1,7 @@
 algoritmo "carteira de motorista"
-
 var
     AA, AN, res: REAL
 inicio
-
     escreval ("-----------------------------")
     escreval ("  DEPARTAMENTO DE TRANSITO")
     escreval ("-----------------------------")
@@ -14,12 +12,11 @@ inicio
     escreval ("----------STATUS------------")
     res <- (AA - AN)   
     escreval("  IDADE: ", res, " anos.")
+
     se (res >= 18) entao
         escreval ("  Está apto a Tirar a Carteira.")
     senao
         escreval (" Inda Não Está apto a Dirigir.")
     fimse
     escreval ("-----------------------------")
-
-
 fimalgoritmo

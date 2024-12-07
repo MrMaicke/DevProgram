@@ -1,11 +1,8 @@
 algoritmo "Crianças sem nenhuma esperança!"
 var
-
-d, doa : real
-val : caractere
-
+    d, doa : real
+    val : caractere
 inicio
-
     escreval("-------------------------------")
     escreval("     Criança sem esperança")
     escreval("-------------------------------")
@@ -19,7 +16,6 @@ inicio
     escreval("digite [7] para receber 100 reais")
     escreva("R: ")
     leia(d)
-
         escolha d
             caso 1
                 val <- ("R$1")
@@ -35,11 +31,9 @@ inicio
             caso 7
                 val <- ("R$100")
         fimescolha
-
-    escreval("-------------------------------")
-    
+    escreval("-------------------------------")    
     se (d = 1) entao
-    escreval ("voce doou 1 real")
+        escreval ("voce doou 1 real")
     senao
         se (d = 2) entao
         escreval ("voce doou 0.25 cents")
@@ -59,20 +53,16 @@ inicio
             fimse
         fimse
     fimse
-
-// oooooooooooooooooooouuuuuuuuuuuuuuuuuuuuuuuuu
-
-        se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
+ // oooooooooooooooooooouuuuuuuuuuuuuuuuuuuuuuuuu
+    se (d = 1) ou (d = 2) ou (d = 3) ou (d = 4) entao
         escreval ("sua doação foi de ", val)
-        senao
-            se(d = 5) entao
+    senao
+        se(d = 5) entao
             escreval ("o valor que você doou é de R$", doa)
-            senao
+        senao
             escreval ("voce recebeu ",val ," reais")
-            fimse
         fimse
-
+    fimse
     escreval("Agradecemos a sua particpação.")
     escreval("-------------------------------")
-
 fimalgoritmo

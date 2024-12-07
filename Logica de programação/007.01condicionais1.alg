@@ -14,5 +14,4 @@ inicio
     senao 
         escreval("ainda não é maior de idade...")
     fimse
-
 fimalgoritmo

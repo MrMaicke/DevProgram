@@ -9,5 +9,4 @@ inicio
     senao
         escreval("O numero ", n1, " é impar")
     fimse
-
 fimalgoritmo

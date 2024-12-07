@@ -3,7 +3,6 @@ var
     nome: caractere
     sal, nsal: real
     dep: inteiro
-
 inicio
     escreva("qual o nome do funcionario? ")
     leia (nome)
@@ -20,9 +19,6 @@ inicio
             nsal <- sal + (sal*15/100)
         outrocaso
             nsal <- sal + (sal*18/100)
-
     fimescolha
-
     escreval("O salario do ",nome ," sera de: R$",nsal:5:2 )
-
 fimalgoritmo

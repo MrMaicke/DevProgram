@@ -1,20 +1,17 @@
 algoritmo "Media&Nota"
 var
-
-n1, n2, media: real
-apv: caractere
-
+    n1, n2, media: real
+    apv: caractere
 inicio
-escreval ("-----------------------------")
-escreval ("     Escola Ganço manço")
-escreval ("-----------------------------")
-escreva("Primeira nota: ")
-leia(n1)
-escreva("Segunda nota: ")
-leia(n2)
-media <- (n1 + n2) / 2 
-escreval ("-----------------------------")
-
+    escreval ("-----------------------------")
+    escreval ("     Escola Ganço manço")
+    escreval ("-----------------------------")
+    escreva("Primeira nota: ")
+    leia(n1)
+    escreva("Segunda nota: ")
+    leia(n2)
+    media <- (n1 + n2) / 2 
+    escreval ("-----------------------------")
     se (media < 5) entao
         apv <- ("F")
     senao
@@ -31,17 +28,16 @@ escreval ("-----------------------------")
                     apv <- ("B")
                     senao
                         se(media >= 9) e (media <= 10) entao
-                        apv <- ("A")
+                            apv <- ("A")
                         senao
-                        apv <- ("A+")
+                            apv <- ("A+")
                         fimse
                     fimse
                 fimse
             fimse
         fimse
     fimse  
-
-escreval ("Media:", media:1:2)
-escreval("APROVEITAMENTO: ", apv:1:2)
-escreval ("-----------------------------")
+    escreval ("Media:", media:1:2)
+    escreval("APROVEITAMENTO: ", apv:1:2)
+    escreval ("-----------------------------")
 fimalgoritmo

@@ -12,6 +12,6 @@ inicio
         soma <- soma + num
         cont <- cont + 1
     fimenquanto`
-escreval("a soma de todos os valore foi de: ",soma)
-escreval("o maior numero foi: ", maior)
+    escreval("a soma de todos os valore foi de: ",soma)
+    escreval("o maior numero foi: ", maior)
 fimalgoritmo
