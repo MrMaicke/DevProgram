@@ -1,25 +1,25 @@
-algoritmo "contagemInteligente"
+algoritmo "contador"
 var
    ini, fin, cont: Inteiro
 inicio
-    Escreval("CONTAGEM INTELIGENTE")
-    Escreval("--------------------")
-    Escreva ("Numero para Iniciar: ")
+    escreval("CONTADOR INTELIGENTE")
+    escreval("--------------------")
+    escreva ("Numero para Iniciar: ")
     leia(ini)
-    Escreva ("Numero para finalizar: ")
+    escreva ("Numero para finalizar: ")
     Leia(fin)
-    Escreval("--------------------")
-    Escreval("  C O N T A N D O   ")
-    Escreval("--------------------")
+    escreval("--------------------")
+    escreval("  C O N T A N D O   ")
+    escreval("--------------------")
     cont <- ini
     se (fin > ini) entao
         enquanto (cont <= fin) faca
-            escreva(cont".. ")
+            escreva(cont, ".. ")
             cont <- cont + 1
         fimenquanto
     senao
         enquanto (cont >= fin) faca
-            escreva(cont".. ")
+            escreva(cont, ".. ")
             cont <- cont - 1
         fimenquanto
     fimse
