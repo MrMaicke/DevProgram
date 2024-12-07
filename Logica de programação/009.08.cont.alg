@@ -12,11 +12,15 @@ inicio
     Escreval("  C O N T A N D O   ")
     Escreval("--------------------")
     cont <- ini
-    se (ini > fin) entao
-        enquanto (cont ) faca
-            escreval ("true")
+    se (fin > ini) entao
+        enquanto (cont <= fin) faca
+            escreva(cont".. ")
+            cont <- cont + 1
         fimenquanto
     senao
-        escreval ("false")
+        enquanto (cont >= fin) faca
+            escreva(cont".. ")
+            cont <- cont - 1
+        fimenquanto
     fimse
 fimalgoritmo
