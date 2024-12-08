@@ -17,10 +17,9 @@ inicio
         escreva("Digite a nota do ",cont,"* aluno? :")
         leia(nota)
     escreval("-------------------------------------------------")
-        se (nota > maior) entao
-            maior <- nota //poderia ter colocado (nota > maiorNota)
-            maiorNome <- nome
+        se (nota > maiorNota) entao
             maiorNota <- nota
+            maiorNome <- nome
         fimse
         cont <- cont + 1
     fimenquanto
