@@ -6,5 +6,5 @@ inicio
     repita
         escreval(contador)
         contador <- contador + 1
-    ate (contatador = 10)
+    ate (contador > 10)
 fimalgoritmo
