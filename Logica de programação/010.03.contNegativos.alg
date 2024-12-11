@@ -6,6 +6,6 @@ inicio
     repita
         escreva("Digite um numero: ")
         leia(num)
-        c <- c + 1
+        cont <- cont + 1
     ate (cont > 5)
 fimalgoritmo
