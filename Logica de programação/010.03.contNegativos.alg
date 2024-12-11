@@ -4,8 +4,8 @@ var
 inicio
     cont <- 1
     repita
-        escreval("Digite um numero: ")
+        escreva("Digite um numero: ")
         leia(num)
         c <- c + 1
-    ate (c > 5)
+    ate (cont > 5)
 fimalgoritmo
