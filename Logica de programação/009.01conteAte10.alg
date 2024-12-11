@@ -3,8 +3,8 @@ var
     contador: inteiro
 inicio
     contador <- 0
-    enquanto (contador <= 10) faca
+    repita
         escreval(contador)
         contador <- contador + 1
-    fimenquanto
+    ate (contatador = 10)
 fimalgoritmo
