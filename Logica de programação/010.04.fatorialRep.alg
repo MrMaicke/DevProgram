@@ -1,13 +1,17 @@
 algoritmo "Calculo de fatorial"
 var
-    n1, c: inteiro
+    num, cont, fat: inteiro
 inicio
     escreva("Digite um numero: ")
-    leia(n1)
-    c <- n1
-    escreva("O fatorial de ", n1," é o calcolo de: ")
+    leia(num)
+    cont <- num
+    fat <- 1
+    escreval("O fatorial de ", num," é o calcolo de: ")
     repita
-        escreva(c," X ")
-        c <- c - 1
-    ate (c < 1)
+        escreva(cont," X ")
+        fat <- fat * cont
+        cont <- cont - 1
+    ate (cont < 1)
+    escreval("0")
+    escreval("O falor do calculo é de: ", fat)
 fimalgoritmo
