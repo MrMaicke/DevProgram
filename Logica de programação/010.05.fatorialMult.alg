@@ -18,5 +18,6 @@ inicio
         escreval("O valor do calculo é de: ", fat)
         escreva("Quer verificar um novo numero? [S/N] : ")
         leia(resp)
+        limpatela
     ate (resp = "N")
 fimalgoritmo
