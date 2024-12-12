@@ -5,7 +5,7 @@ inicio
     cont <- 1
     neg <- 0
     repita
-        escreva("Digite o ", cont," numero: ")
+        escreva("Digite o ", cont,"* numero: ")
         leia(num)
         cont <- cont + 1
         se (num < 0) entao
