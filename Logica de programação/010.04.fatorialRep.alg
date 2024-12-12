@@ -6,7 +6,7 @@ inicio
     leia(n1)
     c <- n1
     repita
-        escreva(n1)
-        n1 <- n1 - 1
+        escreval(c)
+        c <- c - 1
     ate (c < 1)
 fimalgoritmo
