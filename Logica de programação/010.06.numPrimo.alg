@@ -22,5 +22,6 @@ inicio
             fimse
         escreva("Quer fazer mais uma vez? [S/N]:")
         leia(resp)
-    ate resp = "N"
+        limpatela
+    ate (resp = "N")
 fimalgoritmo
