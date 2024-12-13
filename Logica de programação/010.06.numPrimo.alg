@@ -10,10 +10,14 @@ inicio
     leia(num)
     repita
         escreva(cont ,"... ")
-        se (cont % num = 0) entao
+        se (num % cont = 0) entao
             contdiv <- contdiv + 1
         fimse
         cont <- cont + 1
     ate (cont > num)
-    escreval("ao todo existem ", contdiv, " Valores divisiveis.")
+    se (contdiv = 2) entao
+            escreval ("\nEste é um numero primo pois ele é divisivel apenas por 1 e por ele mesmo.")
+        senao
+            escreval("\nAo todo existem ", contdiv, " Valores divisiveis.")
+        fimse
 fimalgoritmo
