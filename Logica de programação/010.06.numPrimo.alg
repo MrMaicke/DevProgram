@@ -16,10 +16,10 @@ inicio
             cont <- cont + 1
         ate (cont > num)
         se (contdiv = 2) entao
-                escreval ("\nEste é um numero primo pois ele é divisivel apenas por 1 e por ele mesmo.")
-            senao
-                escreval("\nAo todo existem ", contdiv, " Valores divisiveis por ", contdiv)
-            fimse
+            escreval ("\nEste é um numero primo pois ele é divisivel apenas por 1 e por ele mesmo.")
+        senao
+            escreval("\nAo todo existem ", contdiv, " Valores divisiveis por ", contdiv)
+        fimse
         escreva("Quer fazer mais uma vez? [S/N]:")
         leia(resp)
         limpatela
