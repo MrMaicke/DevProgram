@@ -1,12 +1,12 @@
 algoritmo "seletor de pessoas"
 var
-    sexo, cabelo, resp: caractere
-    idade, masc, fem: inteiro
+    sexo, resp: caractere
+    idade, cabelo, masc, fem: inteiro
 inicio
     repita
-    escreval("----------------------------------------------------------------------------")
-    escreval("                              SELETOR DE PESSOAS")  
-    escreval("----------------------------------------------------------------------------")
+        escreval("----------------------------------------------------------------------------")
+        escreval("                              SELETOR DE PESSOAS")  
+        escreval("----------------------------------------------------------------------------")
         escreva("Qual o sexo? [M/F] :")
         leia(sexo)
         escreva("Qual a idade? ")
@@ -17,22 +17,11 @@ inicio
         escreval("[3] Loiro")
         escreval("[4] Ruivo")
         leia(cabelo)
-        escolha cabelo
-            caso "1"
-                cabelo <- "Preto"
-            caso "2"
-                cabelo <- "Castanho"
-            caso "3"
-                cabelo <- "Loiro"
-            caso "4"
-                cabelo <- "Ruivo"
-        fimescolha
-        se (sexo = "M") e (idade > 18) e (cabelo = "Castanho") entao
+        se (sexo = "M") e (idade > 18) e (cabelo = 2) entao
             masc <- masc + 1
-        senao
-            se (sexo = "F") e (idade >= 25) e (idade <= 30)e (cabelo = "Loiro") entao
-                fem <- fem + 1
-            fimse
+        fimse
+        se (sexo = "F") e (idade >= 25) e (idade <= 30)e (cabelo = 3) entao
+            fem <- fem + 1
         fimse
         escreva("Quer continuar? [S/N] :")
         leia(resp)
