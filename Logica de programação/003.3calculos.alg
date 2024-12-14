@@ -28,5 +28,4 @@ inicio
     escreval(g)
     escreval(h)
     escreval(i)
-
 fimalgoritmo
