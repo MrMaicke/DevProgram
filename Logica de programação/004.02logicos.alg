@@ -11,5 +11,5 @@ inicio
     escreval((a + b) ou (c > a))
     escreval((a + b) ou (c > a))
     escreval(nao ((a + b) ou (c > a)))
-
+    //nao inverte a logica ex: "nao VERDADEIRO" resulta em "FALSO, "nao FALSO" resulta em "VERDADEIRO.
 fimalgoritmo

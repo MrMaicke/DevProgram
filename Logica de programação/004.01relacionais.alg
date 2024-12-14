@@ -17,5 +17,4 @@ inicio
     escreval(c >= ba)
     escreval(b <= c % 2)
     escreval(1 = c % 2)
-
 fimalgoritmo
