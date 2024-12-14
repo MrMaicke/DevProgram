@@ -16,22 +16,25 @@ inicio
         leia(cabelo)
         escolha cabelo
             caso 1
-                cabelo <- Preto
+                cabelo <- "Preto"
             caso 2
-                cabelo <- Castanho
+                cabelo <- "Castanho"
             caso 3
-                cabelo <- Loiro
+                cabelo <- "Loiro"
             caso 4
-                cabelo <- Ruivo
+                cabelo <- "Ruivo"
         fimescolha
         se (sexo = "M") e (idade > 18) e (cabelo = "Castanho") entao
             masc <- masc + 1
-        
-        se (sexo = "F") e (idade > 25) e (idade < 30)e (cabelo = "Loiro") entao
-            fem <- fem + 1
+        senao
+            se (sexo = "F") e (idade > 25) e (idade < 30)e (cabelo = "Loiro") entao
+                fem <- fem + 1
+            fimse
         fimse
         escreva("Quer continuar? [S/N] :")
         leia(resp)
         limpatela
     ate (resp = "N")
+    escreval("Total de homens com mais de 18 anos e cabelos castanhos é de: ", masc)
+    escreval("Total de mulheres entre 25 e 30 anos e cabelos loiros é de: ", fem)
 fimalgoritmo
