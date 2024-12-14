@@ -1,4 +1,4 @@
-algoritmo "triangulos"
+algoritmo "verifica se o calculo dos numeros forma um triangulos"
 var
     l1, l2, l3: real
     eq, es, tri: logico
@@ -15,5 +15,4 @@ inicio
     escreval("pode formar um triangulo? ", tri)
     escreval("O triangulo é equilatero? ", eq)
     escreval("o triangulo é escaleno? ", es)
-
 fimalgoritmo
