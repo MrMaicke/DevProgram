@@ -9,6 +9,6 @@ inicio
     leia(n1)
     escreva("Informe mais um numero: ")
     leia(n2)
-    soma <- n1 + n2    escreva("A soma de " + n1 + " mais " + n2 + " é: " + soma)
-
+    soma <- n1 + n2    
+    escreva("A soma de " + n1 + " mais " + n2 + " é: " + soma)
 fimalgoritmo
