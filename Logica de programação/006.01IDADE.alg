@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "verificação de idade"
 var
     nasc: inteiro
     ano: inteiro
@@ -9,10 +9,9 @@ inicio
     escreval("em qua no você nascel? ")
     leia(nasc)
     //escreval("qual o mes que você nascel? ")
-    leia(mes)
+    //leia(mes)
     res <- (ano - nasc)   
     escreval("então você tem provavelmente: ", res, " anos, acertei?")
-    // ainda não sei dar uma resposta bolleana.
+    // ainda não sei usar estrutura condicional.
     escreva("Agradeço a execução do teste!")
-
 fimalgoritmo
