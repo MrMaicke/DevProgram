@@ -1,4 +1,4 @@
-algoritmo "Real para Dolar"
+algoritmo "conversor de Real para Dolar"
 var
     dolar, reais: real
 inicio
