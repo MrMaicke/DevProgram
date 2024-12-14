@@ -16,38 +16,38 @@ inicio
     escreval("digite [7] para receber 100 reais")
     escreva("R: ")
     leia(d)
-        escolha d
-            caso 1
-                val <- ("R$1")
-            caso 2
-                val <- ("0.25 cents")
-            caso 3
-                val <- ("R$2")
-            caso 4
-                val <- ("R$1.50")
-            caso 5
-                escreva("qual o valor da doação? R$")
-                leia (doa)
-            caso 7
-                val <- ("R$100")
-        fimescolha
+    escolha d
+        caso 1
+            val <- ("R$1")
+        caso 2
+            val <- ("0.25 cents")
+        caso 3
+            val <- ("R$2")
+        caso 4
+            val <- ("R$1.50")
+        caso 5
+            escreva("qual o valor da doação? R$")
+            leia (doa)
+        caso 7
+            val <- ("R$100")
+    fimescolha
     escreval("-------------------------------")    
     se (d = 1) entao
         escreval ("voce doou 1 real")
     senao
         se (d = 2) entao
-        escreval ("voce doou 0.25 cents")
+            escreval ("voce doou 0.25 cents")
         senao
             se (d = 3) entao
-            escreval ("voce doou 2 reais")
+                escreval ("voce doou 2 reais")
             senao
                 se (d = 4) entao
-                escreval ("você doou R$1.50")
+                    escreval ("você doou R$1.50")
                 senao
                     se (d = 5) entao
-                    escreval("Você doou R$", doa)//ficou faltando esse.
+                        escreval("Você doou R$", doa)//ficou faltando esse.
                     senao
-                    escreval ("voce recebeu 100 reais")
+                        escreval ("voce recebeu 100 reais")
                     fimse
                 fimse
             fimse
