@@ -3,8 +3,6 @@ var
     resp, num: inteiro
 inicio
     repita
-        num1 <- 1
-        num2 <- 10
       escreval("=================")
       escreval("|    M E N U    |")
       escreval("=================")
@@ -15,15 +13,17 @@ inicio
         leia(resp)
             escolha resp
                 caso 1
+                    num <- 1
                     repita
-                        escreva(num1,"... ")
-                        num1 <- num1 + 1
-                    ate (num1 > 10)
+                        escreva(num,"... ")
+                        num <- num + 1
+                    ate (num > 10)
                 caso 2
+                    num <- 10
                     repita
-                        escreva(num2,"... ")
-                        num2 <- num2 - 1
-                    ate (num2 < 1)
+                        escreva(num,"... ")
+                        num <- num - 1
+                    ate (num < 1)
             fimescolha
     ate(resp = 3)
     escreva("Saindo...")
