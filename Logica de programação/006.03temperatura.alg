@@ -1,4 +1,4 @@
-algoritmo "temperatura"
+algoritmo "conversor de temperatura"
 var
     f, c: real
 inicio
