@@ -14,14 +14,14 @@ inicio
     escreval ("-----------------------------")
     res <- abs(g1 - g2)
     escreval("      Diferença: ", res)
-    se (res = 0) entao
+    se(res = 0) entao
         escreval("      STATUS: EMPATE")
-    senao
-        se (res < 5) entao
-            escreval("      STATUS: NORMAL")
-        senao
-            escreval("      STATUS: GOLEADA")
-        fimse
+    fimse
+    se(res < 5) e (res > 0) entao
+        escreval("      STATUS: NORMAL")
+    fimse
+    se(res >= 5) entao
+        escreval("      STATUS: GOLEADA")
     fimse
     escreval ("-----------------------------")
 fimalgoritmo
