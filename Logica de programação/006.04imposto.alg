@@ -1,4 +1,4 @@
-algoritmo "imposto"
+algoritmo "calculadro de imposto"
 var
     imp, reais: real
 inicio
