@@ -12,7 +12,7 @@ inicio
     enquanto (cont <= conv) faca
         escreva ("qual o valor em R$")
         leia(val)
-        res <- val/dolar//6.08
+        res <- val/dolar//6.04
         escrevaL("o valor convertido em US$:", res:1:2)
         cont <- cont + 1
     fimenquanto
