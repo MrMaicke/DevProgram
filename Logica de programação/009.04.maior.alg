@@ -1,6 +1,6 @@
 algoritmo "contador NUmerico"
 var
-    cont, soma, num, maior: real
+    cont, soma, num, maior: inteiro
 inicio
     cont <- 1
     enquanto (cont <= 5) faca
