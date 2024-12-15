@@ -1,6 +1,7 @@
 algoritmo "Nome do Programa"
 var
-    reais, imp, res, totl: real
+    reais, imp, totl: real
+    res: inteiro
 inicio
     escreva("qual o valor do emprestimo? R$")
     leia(reais)
