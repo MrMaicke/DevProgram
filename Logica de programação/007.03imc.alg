@@ -1,4 +1,4 @@
-algoritmo "calculoImc"
+algoritmo "calculo do Imc"
 var
     peso, altura, imc: real
 inicio

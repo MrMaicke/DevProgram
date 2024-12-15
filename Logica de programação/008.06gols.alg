@@ -1,6 +1,6 @@
 algoritmo "quantidade de gols"
 var
-    g1,g2,res,rep: inteiro
+    g1,g2,res: inteiro
 inicio
     escreval ("-----------------------------")
     escreval("  CORINTHIANS VS paumerias")

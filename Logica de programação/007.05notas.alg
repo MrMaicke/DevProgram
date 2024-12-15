@@ -14,10 +14,8 @@ inicio
 
     se (media >= 6) entao
         escreval ("parabenbens sua nota é: ", media,": APROVADO.")
-
     senao
         escreval ("infelizmente Sua media foi ", media, ": REPROVADO")
-
     fimse  
 escreval ("-----------------------------")
 fimalgoritmo

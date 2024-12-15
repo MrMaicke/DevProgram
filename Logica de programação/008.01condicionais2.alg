@@ -18,7 +18,6 @@ inicio
         senao
             escreval ("infelizmente você foi REPROVADO.")
         fimse
-
     fimse  
     escreval ("-----------------------------")
 fimalgoritmo
