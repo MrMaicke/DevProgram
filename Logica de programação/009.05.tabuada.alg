@@ -1,11 +1,13 @@
 algoritmo "Tabuada"
 var
-    cont, num, res: inteiro
+    cont, num, mult, res: inteiro
 inicio
     cont <- 1
-    escreva("Digite o numero que você quer a tabuada: ")
+    escreva("Digite o multiplicador da tabuada: ")
     leia(num)
-    enquanto (cont <= 10) faca
+    escreva("Digote até qual numero quer que seja multiplicado: ")
+    leia(mult)
+    enquanto (cont <= mult) faca
         res <- cont * num
         escreval(num ," * ",cont ," : ", res)
         //numero vezes contagem igual multiplicação
