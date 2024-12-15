@@ -1,8 +1,6 @@
 algoritmo "multrepita"
 var
-
-n1, cont, res: inteiro
-
+    n1, cont, res: inteiro
 inicio
     cont <- 1
     escreva("fale um numero para fazer a tabuada? ")
@@ -12,5 +10,4 @@ inicio
         escreval(n1," * ",cont," = ",res)
         cont <- cont + 1
     ate (cont > 10)
-
 fimalgoritmo
