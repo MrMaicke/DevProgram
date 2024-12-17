@@ -1,19 +1,25 @@
 algoritmo "somador"
 var
-    cont, soma, num: real
-    resp: caractere
+    cont: inteiro
+    soma, num: real
+    resp: caractere  
+    repetir: logico
 inicio
-    repita
+    repetir <- VERDADEIRO
+    para enquanto repetir faca
         limpatela
+        soma <- 0
         para cont <- 1 ate 5 faca
-            escreva("Digite o ",cont,"* valor? : ")
+            escreva("Digite o ", cont, "* valor: ")
             leia(num)
             soma <- soma + num
-        fimpara 
-        escreval("Somando os numeros dá: ", soma)
-        escreva("quer continuar? [S/N] :")
+        fimpara
+        escreval("Somando os números dá: ", soma)
+        escreva("Quer continuar? [S/N]: ")
         leia(resp)
-    ate (resp = "N")
+        resp <- maiuscula(resp) // Converte para maiúsculo para evitar erros com "s" ou "n"
+        repetir <- (resp = "S") // Atualiza a condição para repetir ou não
+    fimpara
 fimalgoritmo
 
 //algoritmo "somador"
