@@ -9,7 +9,7 @@ inicio
             escreva("Digite o ",cont,"* valor? : ")
             leia(num)
             soma <- soma + num
-        fimpara
+        fimpara 
         escreval("Somando os numeros dá: ", soma)
         escreva("quer continuar? [S/N] :")
         leia(resp)
