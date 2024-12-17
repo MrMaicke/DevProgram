@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo "Estrutura de rep"
 var
 
 NUM1: INTEIRO
