@@ -10,5 +10,4 @@ inicio
     //para num1 <- 5 ate 10 faca | conta do 5 até 10
     //para num1 <- 10 ate 1 faca | conta até 1
     //para num1 <- 0 ate 10 passo 2 faca | conta de dois em dois
-    //
 fimalgoritmo
