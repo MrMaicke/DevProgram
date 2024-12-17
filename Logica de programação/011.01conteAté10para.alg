@@ -1,4 +1,4 @@
-algoritmo "Estrutura de rep"
+algoritmo "contador"
 var
     num1: inteiro
 inicio
