@@ -1,7 +1,7 @@
 algoritmo "Nome do Programa"
 var
 
-teste: caractere
+NUM1: INTEIRO
 
 inicio
 
