@@ -1,12 +1,12 @@
 algoritmo "Estrutura de rep"
 var
 
-NUM1: INTEIRO
+    num1: inteiro
 
 inicio
 
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
+    teste <- "Este é um teste."
+    escreval ("Variável Teste")
+    escreva ("O valor da variável TESTE é: " + teste)
 
 fimalgoritmo
