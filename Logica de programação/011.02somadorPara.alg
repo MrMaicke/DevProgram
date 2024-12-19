@@ -18,6 +18,7 @@ inicio
     ate (resp = "N")
 fimalgoritmo
 
+
 //algoritmo "somador"
 //var
 //    cont, soma, num: real
