@@ -7,7 +7,7 @@ inicio
     repita
         limpatela
         soma <- 0
-        para cont <- 1 ate (resp = "N") faca
+        para cont <- 1 ate 4 faca
             escreva("Digite o ",cont,"* valor? : ")
             leia(num)
             soma <- soma + num
