@@ -1,6 +1,11 @@
 algoritmo "Nome do Programa"
 var
-    teste: caractere
+    cont, val, : inteiro
 inicio
-    escreva ("O valor da variável TESTE é: ")   
+    escreva("Digite um Valor: ")
+    leia(val)
+    para cont <- 1 ate val faca
+    escreva(cont)
+        
+    fimpara
 fimalgoritmo
