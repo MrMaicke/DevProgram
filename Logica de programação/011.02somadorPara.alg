@@ -4,6 +4,7 @@ var
     soma, num: real
     resp: caractere
 inicio
+    repita
         limpatela
         soma <- 0
         para cont <- 1 ate (resp = "N") faca
@@ -14,6 +15,7 @@ inicio
         escreval("Somando os numeros dá: ", soma)
         escreva("quer continuar? [S/N] :")
         leia(resp)
+    ate (resp = "N")
 fimalgoritmo
 
 //algoritmo "somador"
