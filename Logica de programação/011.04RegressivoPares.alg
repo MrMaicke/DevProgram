@@ -1,13 +1,13 @@
 algoritmo "Regressivo"
 var
-    cont, val : inteiro
+    cont, val, totl : inteiro
 inicio
+    para cont <- 1 ate 4 faca
     escreva("Digite um Valor: ")
     leia(val)
-    se (val % 2 = 1) entao
-        val <- val - 1
-    fimse
-    para cont <- val ate 0 passo -2 faca
-        escreva(cont,". ")
+        se (val >= 0) e (val <= 10) entao
+            totl <- totl + 1
+        fimse
     fimpara
+    escreva("Ao Total foram ", val, " valores entre Zero e Dez!")
 fimalgoritmo
