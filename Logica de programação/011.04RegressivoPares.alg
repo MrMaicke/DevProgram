@@ -1,4 +1,4 @@
-algoritmo "Regressivo"
+algoritmo "soma impares"
 var
     cont, val, totl, somaimp : inteiro
 inicio
@@ -13,5 +13,5 @@ inicio
         fimse
     fimpara
     escreval("Ao Total foram ", totl, " valores entre Zero e Dez!")
-    escreval("Ao todo a soma dso impares foi ", somaimp)
+    escreval("Ao todo a soma dos impares foi ", somaimp)
 fimalgoritmo
