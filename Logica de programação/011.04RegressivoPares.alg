@@ -12,6 +12,6 @@ inicio
             somaimp <- somaimp + val
         fimse
     fimpara
-    escreva("Ao Total foram ", totl, " valores entre Zero e Dez!")
-    escreva("Ao todo a soma dso impares foi ", somaimp)
+    escreval("Ao Total foram ", totl, " valores entre Zero e Dez!")
+    escreval("Ao todo a soma dso impares foi ", somaimp)
 fimalgoritmo
