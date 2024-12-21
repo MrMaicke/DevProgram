@@ -1,4 +1,4 @@
-algoritmo "Nome do Programa"
+algoritmo ""
 var
     cont, val : inteiro
 inicio
