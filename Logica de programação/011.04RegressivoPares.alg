@@ -4,7 +4,7 @@ var
 inicio
     escreva("Digite um Valor: ")
     leia(val)
-    para cont <- 0 ate val passo 2 faca
+    para cont <- val ate 0 passo -2 faca
     escreva(cont)
         
     fimpara
