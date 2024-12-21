@@ -4,11 +4,10 @@ var
 inicio
     escreva("Digite um Valor: ")
     leia(val)
-    se (val % 2 - 1) entao
+    se (val % 2 = 1) entao
         val <- val - 1
     fimse
     para cont <- val ate 0 passo -2 faca
-    escreva(cont,".. ")
-        
+        escreva(cont,". ")
     fimpara
 fimalgoritmo
