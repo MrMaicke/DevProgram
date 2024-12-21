@@ -1,6 +1,6 @@
 algoritmo "soma impares"
 var
-    cont, val, totl, somaimp : inteiro
+    cont, val, totl, somaimp, somaimp1 : inteiro
 inicio
     para cont <- 1 ate 6 faca
     escreva("Digite um Valor: ")
@@ -11,7 +11,11 @@ inicio
                 somaimp <- somaimp + val
             fimse
         fimse
+        se (val % 2 = 1) entao
+            somaimp1 <- somaimp1 + val
+        fimse
     fimpara
     escreval("Ao Total foram ", totl, " valores entre 0 e 10!")
-    escreval("Ao todo a soma dos impares foi ", somaimp)
+    escreval("Ao todo a soma dos impares dentro do limitedor foi ", somaimp)
+    escreval("Ao todo a soma dos impares foi ", somaimp1)
 fimalgoritmo
