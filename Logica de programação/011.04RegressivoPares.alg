@@ -2,7 +2,7 @@ algoritmo "Regressivo"
 var
     cont, val, totl, somaimp : inteiro
 inicio
-    para cont <- 1 ate 4 faca
+    para cont <- 1 ate 3 faca
     escreva("Digite um Valor: ")
     leia(val)
         se (val >= 0) e (val <= 10) entao
