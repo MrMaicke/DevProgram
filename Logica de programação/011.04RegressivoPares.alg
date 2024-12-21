@@ -1,4 +1,4 @@
-algoritmo ""
+algoritmo "Regressivo"
 var
     cont, val : inteiro
 inicio
