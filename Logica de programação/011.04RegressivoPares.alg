@@ -9,5 +9,5 @@ inicio
             totl <- totl + 1
         fimse
     fimpara
-    escreva("Ao Total foram ", val, " valores entre Zero e Dez!")
+    escreva("Ao Total foram ", totl, " valores entre Zero e Dez!")
 fimalgoritmo
