@@ -16,6 +16,6 @@ inicio
         fimse
     fimpara
     escreval("Ao Total foram ", totl, " valores entre 0 e 10!")
-    escreval("Ao todo a soma dos impares dentro do limitedor foi ", somaimp)
+    escreval("Ao todo a soma dos impares dentro do limitador foi ", somaimp)
     escreval("Ao todo a soma dos impares foi ", somaimp1)
 fimalgoritmo
