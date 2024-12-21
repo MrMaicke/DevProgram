@@ -1,10 +1,10 @@
 algoritmo "Nome do Programa"
 var
-    cont, val, : inteiro
+    cont, val : inteiro
 inicio
     escreva("Digite um Valor: ")
     leia(val)
-    para cont <- 1 ate val faca
+    para cont <- 0 ate val passo 2 faca
     escreva(cont)
         
     fimpara
