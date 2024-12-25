@@ -3,13 +3,13 @@ var
   Cont, n1, n2, n3 : Inteiro
 inicio
    n1 <- 0
-   Escreva (n1,".. ")
+   escreva (n1,".. ")
    n2 <- 1
-   Escreva (n2,".. ")
-   Para Cont := 3 ate 15 faca
+   escreva (n2,".. ")
+   para Cont := 3 ate 15 faca
         n3 := n1 + n2
         Escreva (n3,".. ")
         n1 := n2
         n2 := n3
-   FimPara
+   fimpara
 fimalgoritmo
