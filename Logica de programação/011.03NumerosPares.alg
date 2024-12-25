@@ -6,6 +6,5 @@ inicio
     leia(val)
     para cont <- 0 ate val passo 2 faca
     escreva(cont)
-        
     fimpara
 fimalgoritmo
