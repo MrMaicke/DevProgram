@@ -1,9 +1,15 @@
 algoritmo "Sequencia De Fibonacci"
 var
-    n1, n2: inteiro
+  Cont, n1, n2, n3 : Inteiro
 inicio
-    para n1 := 0 ate 15 faca
-        escreva(n1,".. ")
-        n1 <- n1 + n1
-    fimpara
+   n1 <- 0
+   Escreva (n1,".. ")
+   n2 <- 1
+   Escreva (n2,".. ")
+   Para Cont := 3 ate 15 faca
+        n3 := n1 + n2
+        Escreva (n3,".. ")
+        n1 := n2
+        n2 := n3
+   FimPara
 fimalgoritmo
