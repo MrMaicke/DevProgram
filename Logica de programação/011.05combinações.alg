@@ -1,6 +1,8 @@
 algoritmo "combinações"
 var
-    teste: caractere
+    cont1: inteiro
 inicio
-    escreva ("O valor da variável TESTE é: " + teste)
+    para cont1 := 1 ate 3 faca
+        escreval (cont1)
+    fimpara
 fimalgoritmo
