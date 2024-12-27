@@ -8,7 +8,7 @@ inicio
    escreva (n2,".. ")
    para Cont := 3 ate 15 faca
         n3 := n1 + n2
-        escreva (n3,".. ")
+        escreva (n3,".. ") 
         n1 := n2
         n2 := n3
    fimpara
