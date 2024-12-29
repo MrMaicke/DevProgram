@@ -1,4 +1,4 @@
-algoritmo "Analisador deValores"
+algoritmo "Analisador de Valores"
 var
   V, C, S, DI5, NUL, SPAR: Inteiro
   M: Real
