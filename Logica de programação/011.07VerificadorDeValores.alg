@@ -7,15 +7,15 @@ inicio
          escreva("Digite o ",cont,"o. Valor: ")
          leia(val)
          soma <- soma + val
-         Se (val%5=0) entao
+         se (val%5=0) entao
             div5 <- div5 + 1
-         FimSe
-         Se (val=0) entao
+         fimse
+         se (val=0) entao
             nul <- nul + 1
-         FimSe
-         Se (val%2=0) entao
+         fimse
+         se (val%2=0) entao
             sopar <- sopar + val
-         FimSe
+         fimse
     fimPara
     media <- soma / (cont-1)
     escreval("A soma entre os valores e ", soma)
