@@ -5,7 +5,7 @@ var
 inicio
     para cont <- 1 ate 4 faca
          escreva("Digite o ",cont,"o. Valor: ")
-         leia (val)
+         leia(val)
          soma <- soma + val
          Se (val%5=0) entao
             div5 <- div5 + 1
