@@ -1,7 +1,7 @@
 algoritmo "Analisador de Valores"
 var
-  val, cont, soma, div5, nul, sopar: Inteiro
-  media: Real
+  val, cont, soma, div5, nul, sopar: inteiro
+  media: real
 inicio
     para cont <- 1 ate 4 faca
          Escreva("Digite o ",cont,"o. Valor: ")
