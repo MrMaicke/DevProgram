@@ -4,7 +4,7 @@ var
   media: real
 inicio
     para cont <- 1 ate 4 faca
-         escreva("Digite o ",cont,"o. Valor: ")
+         escreva("Digite o ",cont,"* Valor: ")
          leia(val)
          soma <- soma + val
          se (val%5=0) entao
