@@ -27,5 +27,4 @@ inicio
     EscrevaL("Valores divisiveis por cinco: ", DI5)
     EscrevaL("Valores nulos: ", NUL)
     EscrevaL("A soma dos valores pares e ", SPAR)
-    
 fimalgoritmo
