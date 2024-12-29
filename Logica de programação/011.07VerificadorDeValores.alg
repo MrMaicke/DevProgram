@@ -1,16 +1,16 @@
 algoritmo "Analisador de Valores"
 var
-  V, C, S, DI5, NUL, SPAR: Inteiro
+  V, C, soma, DI5, NUL, SPAR: Inteiro
   M: Real
 inicio
-    S <- 0
+    soma <- 0
     DI5 <- 0
     NUL <- 0
     SPAR <- 0
     Para C <- 1 ate 5 faca
          Escreva("Digite o ",C,"o. Valor: ")
          Leia(V)
-         S <- S + V
+         soma <- soma + V
          Se (V%5=0) entao
             DI5 <- DI5 + 1
          FimSe
@@ -21,8 +21,8 @@ inicio
             SPAR <- SPAR + V
          FimSe
     FimPara
-    M <- S / (C-1)
-    EscrevaL("A soma entre os valores e ", S)
+    M <- soma / (C-1)
+    EscrevaL("A soma entre os valores e ", soma)
     EscrevaL("A media entre os valores e ", M:5:1)
     EscrevaL("Valores divisiveis por cinco: ", DI5)
     EscrevaL("Valores nulos: ", NUL)
