@@ -23,7 +23,7 @@ inicio
     FimPara
     M <- soma / (C-1)
     EscrevaL("A soma entre os valores e ", soma)
-    EscrevaL("A media entre os valores e ", M:5:1)
+    EscrevaL("A media entre os valores e ", M:1:1)
     EscrevaL("Valores divisiveis por cinco: ", DI5)
     EscrevaL("Valores nulos: ", NUL)
     EscrevaL("A soma dos valores pares e ", SPAR)
