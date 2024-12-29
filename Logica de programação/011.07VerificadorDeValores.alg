@@ -1,7 +1,7 @@
 algoritmo "Analisador de Valores"
 var
   V, C, soma, DI5, NUL, SPAR: Inteiro
-  M: Real
+  media: Real
 inicio
     soma <- 0
     DI5 <- 0
@@ -21,10 +21,10 @@ inicio
             SPAR <- SPAR + V
          FimSe
     FimPara
-    M <- soma / (C-1)
-    EscrevaL("A soma entre os valores e ", soma)
-    EscrevaL("A media entre os valores e ", M:1:1)
-    EscrevaL("Valores divisiveis por cinco: ", DI5)
-    EscrevaL("Valores nulos: ", NUL)
-    EscrevaL("A soma dos valores pares e ", SPAR)
+    media <- soma / (C-1)
+    escreval("A soma entre os valores e ", soma)
+    escreval("A media entre os valores e ", media:1:1)
+    escreval("Valores divisiveis por cinco: ", DI5)
+    escreval("Valores nulos: ", NUL)
+    escreval("A soma dos valores pares e ", SPAR)
 fimalgoritmo
