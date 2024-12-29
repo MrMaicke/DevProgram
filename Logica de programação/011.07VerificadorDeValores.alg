@@ -28,5 +28,4 @@ inicio
     EscrevaL("Valores nulos: ", NUL)
     EscrevaL("A soma dos valores pares e ", SPAR)
     
-    
 fimalgoritmo
