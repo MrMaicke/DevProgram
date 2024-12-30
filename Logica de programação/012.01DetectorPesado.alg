@@ -4,7 +4,6 @@ var
     n, pesado: caractere
     p, mai: real
 inicio
-    limpatela
     escreval("----------------------------------------")
     escreval(" D E T E C T O R     DE    P E S A D O")
     escreval(" Maior Peso ate agora: ", mai, " Kg")
