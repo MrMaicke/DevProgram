@@ -1,6 +1,6 @@
 algoritmo "procedimento parametro soma"
 var
-    n1 , n2: caractere
+    n1 , n2: inteiro
 
 procedimento soma(a, b: inteiro)
 inicio
