@@ -6,7 +6,7 @@ var
 inicio
     limpatela
     escreval("----------------------------------------")
-    escreval("  D E T E C T O R     DE    P E S A D O")
+    escreval(" D E T E C T O R     DE    P E S A D O")
     escreval(" Maior Peso ate agora: ", mai, " Kg")
     escreval("----------------------------------------")
     para i<- 1 ate 4 faca
@@ -20,13 +20,13 @@ inicio
         fimse
         limpatela
         escreval("----------------------------------------")
-        escreval("  D E T E C T O R     DE    P E S A D O")
+        escreval(" D E T E C T O R     DE    P E S A D O")
         escreval(" Maior Peso ate agora: ", mai, " Kg")
         escreval("----------------------------------------")
     fimpara
     LimpaTela
     escreval("----------------------------------------")
-    escreval("  D E T E C T O R     DE    P E S A D O")
+    escreval(" D E T E C T O R     DE    P E S A D O")
     escreval(" Maior Peso ate agora: ", mai, " Kg")
     escreval("----------------------------------------")
     escreval("A pessoa Mais Pesada foi ", pesado,", com ", mai," quilos.")
