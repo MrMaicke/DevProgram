@@ -1,15 +1,15 @@
 algoritmo "Detector de Pesado"
 var
-    i: interiro
+    i: inteiro
     n, pesado: caractere
     p, mai: real
 inicio
     limpatela
     escreval("----------------------------------------")
     escreval("  D E T E C T O R     DE    P E S A D O")
-    escreval(" Maior Peso ate agora: ", mai, "Kg")
+    escreval(" Maior Peso ate agora: ", mai, " Kg")
     escreval("----------------------------------------")
-    para i<- 1 ate 5 faca
+    para i<- 1 ate 4 faca
         escreva("Digite o nome: ")
         leia(n)
         escreva("Digite o peso de ", n, ": ")
@@ -21,13 +21,13 @@ inicio
         limpatela
         escreval("----------------------------------------")
         escreval("  D E T E C T O R     DE    P E S A D O")
-        escreval(" Maior Peso ate agora: ", mai, "Kg")
+        escreval(" Maior Peso ate agora: ", mai, " Kg")
         escreval("----------------------------------------")
     fimpara
     LimpaTela
     escreval("----------------------------------------")
     escreval("  D E T E C T O R     DE    P E S A D O")
-    escreval(" Maior Peso ate agora: ", mai, "Kg")
+    escreval(" Maior Peso ate agora: ", mai, " Kg")
     escreval("----------------------------------------")
     escreval("A pessoa Mais Pesada foi ", pesado,", com ", mai," quilos.")
     escreval("----------------------------------------")
