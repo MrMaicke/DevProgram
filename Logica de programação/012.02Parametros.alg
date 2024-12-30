@@ -6,7 +6,7 @@ procedimento soma(a, b: inteiro)
 inicio
     escreval ("Recebi o valor ", a)
     escreval ("Recebi o valor ", b)
-    escreval("a soma vale ", a + b)
+    escreval("a soma entre eles é ", a + b)
 fimprocedimento
 inicio
     n1 <- 5
