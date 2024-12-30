@@ -12,7 +12,7 @@ inicio
     para i<- 1 ate 4 faca
         escreva("Digite o nome: ")
         leia(n)
-        escreva("Digite o peso de ", n, ": ")
+        escreva("Digite o peso de ", n, " apenas em numeros: ")
         leia(p)
         se (p > mai) entao
             mai <- p
