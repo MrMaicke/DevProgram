@@ -13,6 +13,6 @@ inicio
     escreva("Digite um numero: ")
     leia(n1)
     parOuImpar(n1)
-    escreva("O valor de v é: ",v)
+    escreva("O valor de v é: ",v) //<- escopo local
     escreva("O valor de n1 é: ",n1)
 fimalgoritmo
