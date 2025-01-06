@@ -8,7 +8,7 @@ inicio
     senao
         escreval("O numero ", v," é IMPAR.")
     fimse
-fimprocedimento 
+fimprocedimento
 inicio
     escreva("Digite um numero: ")
     leia(n1)
