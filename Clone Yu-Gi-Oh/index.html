@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head> <!-- onde ficam os "pensamentos" da pagina --> 
+
+<head> <!-- onde ficam os "pensamentos" da pagina -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yu-Gi-Oh!</title>
 </head>
+
 <body>
     <header class="cabecalho">
         <h1 class="titulo">Clone Yu-Gi-Oh!</h1>
@@ -16,6 +18,8 @@
 
         <ul class="lista-personagens">
             <li class="cartao fundo-1 selecionado">
+                <div class="carta-virada"></div>
+                
                 <h2 class="nome">Cosmos Sentinel, O Guardião Galático</h2>
 
                 <div class="nivel-carta">
@@ -26,7 +30,21 @@
                     <span class="estrela"></span>
                 </div>
 
-                <img src="src/imagens/cosmos-sentinel.png" alt="Cosmos Sentinel, O Guardião Galático" class="imagem-carta">
+                <img src="src/imagens/cosmos-sentinel.png" alt="Cosmos Sentinel, O Guardião Galático"
+                    class="imagem-carta">
+
+                <div class="informacoes">
+                    <p class="descricao">
+                        Este imponente guerreiro cibernético é a personificação da
+                        harmonia entre tecnologia avançada e energia cósmica. Empunhando o
+                        Cetro Estelar, Cosmos Sentinel pode manipular o espaço-tempo,
+                        anulando ataques e fortalecendo aliados.
+                    </p>
+                    <div class="informacoes-ataque">
+                        <span>ATK/ 2800</span>
+                        <span>DEF/ 2500</span>
+                    </div>
+                </div>
             </li>
         </ul>
 
@@ -35,4 +53,5 @@
         </button>
     </main>
 </body>
+
 </html>
