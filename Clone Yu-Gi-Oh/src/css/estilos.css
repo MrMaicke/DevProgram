@@ -5,7 +5,30 @@ body{
     background-size: cover; /*pede pra imagem de fundo cobrir tudo sem repetir*/
 }
 
-.cabecalho{
-    background-color: red;
-    display: flex;
+.cabecalho{ /* conceito de classes */
+    background-color: red;/* background para não se perder */
+    display: flex;/*flexBox conceito de pais e filhos*/
+    justify-content: center;/*centralização do texto*/
+}
+
+.cabecalho .titulo{/*poderia ter colocado h1 porem irie estilizar todos os h1 caso ouvessem*/
+    color: #f1ecff; /*cor especificada do titulo*/
+}
+
+.cartao{
+    opacity: 0; /*para apagar os outros cartoes*/
+    display: flex;/*conceito de pais e filhos*/
+    flex-direction: column;/*pai e filho coluna*/
+    padding: 12px;/*distanciar*/
+}
+
+.cartao.selecionado{
+    opacity: 1; /*mostrar apenas o cartão selecionado*/
+}
+
+.lista-personagens{
+    background-color: blue;/*para saber a onde estou mechendo*/
+    width: 300px;/*largura*/
+    height: 500px;/*altura*/
+    border-radius: 10px;/*arredondar*/
 }
