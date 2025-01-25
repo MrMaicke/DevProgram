@@ -7,12 +7,16 @@ body {
     /*não repet a imagem de fundo*/
     background-size: cover;
     /*pede pra imagem de fundo cobrir tudo sem repetir*/
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /*especica o tamanho ocupado no navegador*/
+    gap: 30px;
 }
 
 .cabecalho {
-    /* conceito de classes */
-    background-color: red;
-    /* background para não se perder */
+    /* conceito de classes, background para não se perder */
     display: flex;
     /*aplica o conceito de pais e filhos*/
     justify-content: center;
@@ -34,16 +38,20 @@ body {
     /*pai e filho coluna*/
     padding: 12px;
     /*distanciar geral*/
+    gap: 5px;
+    position: absolute;
+    /*lista*/
 }
 
 .cartao.selecionado {
     /*selecionei dois de uma vez*/
     opacity: 1;
     /*mostrar apenas o cartão selecionado*/
+    z-index: 1;
+    /*prioridade é do primeiro*/
 }
 
 .lista-personagens {
-    background-color: blue;
     /*para saber a onde estou mechendo*/
     width: 300px;
     /*largura*/
@@ -51,6 +59,8 @@ body {
     /*altura*/
     border-radius: 10px;
     /*arredondar*/
+    position: relative;
+    /*lista*/
 }
 
 .slider {
@@ -86,7 +96,6 @@ body {
 }
 
 .cartao .nivel-carta {
-    background-color: cadetblue;
     display: flex;
     /*aplica o conceito de pais e filhos*/
     justify-content: flex-end;
@@ -110,6 +119,7 @@ body {
     border: 2px solid #a67c52;
     text-align: left;
     line-height: 1.5;
+    padding: 5px;
 }
 
 .cartao .informacoes .descricao {
@@ -162,4 +172,18 @@ body {
 
 .fundo-7 {
     background: url(../imagens/fundo-7.jpg);
+}
+
+.btn-seta{
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 0;
+    cursor: pointer;/*altera o cursor para a maozinha*/
+    transition: background-color 0.2s ease-in-out;/*tempo de transicão de fundo*/
+    box-shadow: rgba(100, 100, 111, 0.2) opx 7px 29px 0px;
 }
