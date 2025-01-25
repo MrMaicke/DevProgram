@@ -1,0 +1,7 @@
+body{
+    font-family: 'Yugioh', serif; /*nome da fonte criado no fontes*/
+    background-image: url(../imagens/fundo-site.jpg); /*Dois pontos para voltar e selecionar a imagem de fundo*/
+    background-repeat: no-repeat; /*não repet a imagem de fundo*/
+    background-size: cover; /*pede pra imagem de fundo cobrir tudo sem repetir*/
+
+}
