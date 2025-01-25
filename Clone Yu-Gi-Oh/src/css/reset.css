@@ -1,4 +1,4 @@
-*{ /* o estilo de cascata faz com que o ultimo item seja mais importante doque o primeiro */
+*{ /* o estilo de cascata faz com que o ultimo item seja mais importante doque o primeiro ou seja caso o proximo item anule o anterior deve se alterar a ordem */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
