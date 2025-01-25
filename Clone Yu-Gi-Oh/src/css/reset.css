@@ -1,0 +1,9 @@
+*{ /* o estilo de cascata faz com que o ultimo item seja mais importante doque o primeiro */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
