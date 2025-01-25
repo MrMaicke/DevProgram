@@ -7,7 +7,7 @@ body{
 
 .cabecalho{ /* conceito de classes */
     background-color: red;/* background para não se perder */
-    display: flex;/*flexBox conceito de pais e filhos*/
+    display: flex;/*aplica o conceito de pais e filhos*/
     justify-content: center;/*centralização do texto*/
 }
 
@@ -17,12 +17,12 @@ body{
 
 .cartao{
     opacity: 0; /*para apagar os outros cartoes*/
-    display: flex;/*conceito de pais e filhos*/
+    display: flex;/*aplica o conceito de pais e filhos*/
     flex-direction: column;/*pai e filho coluna*/
     padding: 12px;/*distanciar*/
 }
 
-.cartao.selecionado{
+.cartao.selecionado{/*selecionei dois de uma vez*/
     opacity: 1; /*mostrar apenas o cartão selecionado*/
 }
 
@@ -31,4 +31,35 @@ body{
     width: 300px;/*largura*/
     height: 500px;/*altura*/
     border-radius: 10px;/*arredondar*/
+}
+
+.slider{/*o pai da lista é o main classe slider*/
+    display: flex;/*aplica o conceito de pais e filhos e colocou um do lado do outro*/
+    justify-content: center;/*centralizou horizontal-mente*/
+    align-items: center;/*centralizou vetical-mente*/
+    gap: 130px;/*distanciou elementos*/
+}
+
+.cartao .nome{
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);/*feito um gradient para o fundo existem sites para isso*/
+    border: 2px solid #a67c52;
+    border-radius: 4px;
+}
+
+.cartao .estrela{
+    width: 20px;
+    height: 20px;
+    background-image: url(../imagens/nivel-carta.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.cartao .nivel-carta{
+    background-color: cadetblue;
+    display: flex;/*aplica o conceito de pais e filhos*/
+    justify-content: flex-end;/*colocou o conjunto no final*/
 }
