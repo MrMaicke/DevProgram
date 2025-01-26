@@ -174,7 +174,7 @@ body {
     background: url(../imagens/fundo-7.jpg);
 }
 
-.btn-seta{
+.btn-seta {
     background-color: #ffffff;
     width: 70px;
     height: 70px;
@@ -183,7 +183,39 @@ body {
     justify-content: center;
     border-radius: 50px;
     border: 0;
-    cursor: pointer;/*altera o cursor para a maozinha*/
-    transition: background-color 0.2s ease-in-out;/*tempo de transicão de fundo*/
-    box-shadow: rgba(100, 100, 111, 0.2) opx 7px 29px 0px;
+    cursor: pointer;
+    /*altera o cursor para a maozinha*/
+    transition: background-color 0.2s ease-in-out;
+    /*tempo de transicão de fundo*/
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /*sombra do botão*/
 }
+
+.btn-seta.btn-voltar{
+    transform: rotateY(180deg);/*rotaciona seta*/
+}
+
+.btn-seta:hover{
+    background-color: #8351fe;
+}
+
+/*inicio da estilização do scroll*/
+body::-webkit-scrollbar-track{
+    background-color: #c08057;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c08057;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c08057;
+}
+/*fim da estilização do scroll*/
+
+
