@@ -12,7 +12,7 @@ OBJETIVO 2 - quando clicarmos na seta de voltar temos que mostrar o cartão ante
   - passo 4 - buscar o cartão que esta selecionado e esconder
 */
 
-const btnAvancar = document.getElementById("btn-avancar");//agora posso usar o btn-avancar no js
+const btnAvancar = document.getElementById("btn-avancar");//agora renomeei e posso ultilizar.
 const btnVoltar = document.getElementById("btn-voltar")
 const cartoes = document.querySelectorAll(".cartao");
 let cartaoAtual = 0;
