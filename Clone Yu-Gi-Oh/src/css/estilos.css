@@ -240,5 +240,9 @@ body::-webkit-scrollbar-track{
 .cartao.virar{
     transform: rotateZ(90deg);
     transition: transform 0.3s ease-in-out;
-    
+
+}
+
+.esconder {
+    display: none;
 }
